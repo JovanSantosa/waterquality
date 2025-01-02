@@ -10,7 +10,7 @@ def get_data_from_db():
             host='localhost',
             user='root',  # ganti dengan username database Anda
             password='',  # ganti dengan password Anda
-            database='monitoringair'  # ganti dengan nama database Anda
+            database='monitorair'  # ganti dengan nama database Anda
         )
 
         cursor = connection.cursor()

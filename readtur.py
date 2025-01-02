@@ -6,7 +6,7 @@ def get_turbidity():
             host="localhost",
             user="root",
             password="",
-            database="monitoringair"
+            database="monitorair"
         )
         cursor = connection.cursor()
         cursor.execute("SELECT turbidity FROM tb_kualitas_air ORDER BY id DESC LIMIT 1")

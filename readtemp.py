@@ -9,7 +9,7 @@ def get_temperature():
             host="localhost",
             user="root",  # Ganti dengan username database Anda
             password="",  # Ganti dengan password database Anda
-            database="monitoringair"  # Nama database
+            database="monitorair"  # Nama database
         )
         
         cursor = connection.cursor()

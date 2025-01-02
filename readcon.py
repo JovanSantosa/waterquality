@@ -6,7 +6,7 @@ def get_conductivity():
             host="localhost",
             user="root",
             password="",
-            database="monitoringair"
+            database="monitorair"
         )
         cursor = connection.cursor()
         cursor.execute("SELECT conductivity FROM tb_kualitas_air ORDER BY id DESC LIMIT 1")
